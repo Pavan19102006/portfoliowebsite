@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary Project - Pavan Prasad</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .project-detail {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: var(--eerie-black-2);
+            border-radius: 20px;
+            margin-top: 50px;
+        }
+        
+        .project-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .project-image {
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin: 20px auto;
+            display: block;
+        }
+        
+        .project-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 40px;
+        }
+        
+        .back-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: var(--orange-yellow-crayola);
+            color: var(--smoky-black);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+        }
+        
+        .back-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(255, 178, 54, 0.4);
+        }
+        
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .tech-tag {
+            background: var(--orange-yellow-crayola);
+            color: var(--smoky-black);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        @media (max-width: 768px) {
+            .project-info {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="project-detail">
+        <a href="../index.html#portfolio" class="back-button">← Back to Portfolio</a>
+        
+        <div class="project-header">
+            <h1 class="h1" style="color: var(--white-1);">AI Content Summarizer</h1>
+            <p style="color: var(--light-gray); font-size: 18px; margin-top: 10px;">Web Development Project</p>
+        </div>
+        
+        <img src="../assets/images/project-7.png" alt="Summary Project" class="project-image">
+        
+        <div class="project-info">
+            <div>
+                <h3 class="h3" style="color: var(--white-1); margin-bottom: 20px;">Project Overview</h3>
+                <p style="color: var(--light-gray); line-height: 1.6;">
+                    An intelligent web application that uses artificial intelligence to summarize long-form content, 
+                    articles, and documents. The tool helps users quickly extract key information from lengthy texts, 
+                    making information consumption more efficient and accessible.
+                </p>
+                
+                <h4 class="h4" style="color: var(--white-1); margin-top: 30px; margin-bottom: 15px;">Key Features</h4>
+                <ul style="color: var(--light-gray); line-height: 1.8;">
+                    <li>• AI-powered text summarization</li>
+                    <li>• Multiple summary length options</li>
+                    <li>• Support for various file formats</li>
+                    <li>• URL content extraction and summarization</li>
+                    <li>• Export summaries in different formats</li>
+                    <li>• Real-time text analysis and insights</li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 class="h3" style="color: var(--white-1); margin-bottom: 20px;">Technical Implementation</h3>
+                <p style="color: var(--light-gray); line-height: 1.6;">
+                    Built using modern web technologies with integration to advanced natural language processing APIs. 
+                    The application features a clean, intuitive interface that makes complex AI functionality 
+                    accessible to users of all technical levels.
+                </p>
+                
+                <h4 class="h4" style="color: var(--white-1); margin-top: 30px; margin-bottom: 15px;">Technologies Used</h4>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">FastAPI</span>
+                    <span class="tech-tag">OpenAI API</span>
+                    <span class="tech-tag">React.js</span>
+                    <span class="tech-tag">TailwindCSS</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">Redis</span>
+                </div>
+                
+                <div style="margin-top: 40px;">
+                    <a href="https://example.com" target="_blank" class="back-button" style="background: #4CAF50;">Try Demo</a>
+                    <a href="https://github.com" target="_blank" class="back-button" style="background: #2196F3; margin-left: 10px;">View Code</a>
+                    <p style="color: var(--light-gray); font-size: 14px; margin-top: 15px; font-style: italic;">
+                        📝 Note: Replace these placeholder URLs with your actual project links
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

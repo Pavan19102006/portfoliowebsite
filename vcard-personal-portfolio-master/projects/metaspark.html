@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetaSpark Project - Pavan Prasad</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .project-detail {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: var(--eerie-black-2);
+            border-radius: 20px;
+            margin-top: 50px;
+        }
+        
+        .project-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .project-image {
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin: 20px auto;
+            display: block;
+        }
+        
+        .project-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 40px;
+        }
+        
+        .back-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: var(--orange-yellow-crayola);
+            color: var(--smoky-black);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+        }
+        
+        .back-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(255, 178, 54, 0.4);
+        }
+        
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .tech-tag {
+            background: var(--orange-yellow-crayola);
+            color: var(--smoky-black);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        @media (max-width: 768px) {
+            .project-info {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="project-detail">
+        <a href="../index.html#portfolio" class="back-button">← Back to Portfolio</a>
+        
+        <div class="project-header">
+            <h1 class="h1" style="color: var(--white-1);">MetaSpark NFT Platform</h1>
+            <p style="color: var(--light-gray); font-size: 18px; margin-top: 10px;">Web Design Project</p>
+        </div>
+        
+        <img src="../assets/images/project-6.png" alt="MetaSpark Project" class="project-image">
+        
+        <div class="project-info">
+            <div>
+                <h3 class="h3" style="color: var(--white-1); margin-bottom: 20px;">Project Overview</h3>
+                <p style="color: var(--light-gray); line-height: 1.6;">
+                    MetaSpark is a cutting-edge NFT marketplace design that bridges the gap between digital art 
+                    and blockchain technology. The platform features an intuitive interface for buying, selling, 
+                    and creating NFTs, with a focus on user experience and visual appeal.
+                </p>
+                
+                <h4 class="h4" style="color: var(--white-1); margin-top: 30px; margin-bottom: 15px;">Design Features</h4>
+                <ul style="color: var(--light-gray); line-height: 1.8;">
+                    <li>• Modern dark theme with neon accents</li>
+                    <li>• Interactive NFT gallery and showcase</li>
+                    <li>• Advanced filtering and search functionality</li>
+                    <li>• Wallet integration interface design</li>
+                    <li>• Artist profile and collection pages</li>
+                    <li>• Real-time bidding interface</li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 class="h3" style="color: var(--white-1); margin-bottom: 20px;">Design Approach</h3>
+                <p style="color: var(--light-gray); line-height: 1.6;">
+                    The design emphasizes the futuristic nature of blockchain technology while maintaining 
+                    accessibility and usability. Special attention was given to showcasing digital art in 
+                    the best possible way and creating trust through transparent design elements.
+                </p>
+                
+                <h4 class="h4" style="color: var(--white-1); margin-top: 30px; margin-bottom: 15px;">Tools & Technologies</h4>
+                <div class="tech-stack">
+                    <span class="tech-tag">Figma</span>
+                    <span class="tech-tag">Adobe XD</span>
+                    <span class="tech-tag">Principle</span>
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Web3.js</span>
+                    <span class="tech-tag">SCSS</span>
+                    <span class="tech-tag">Framer Motion</span>
+                </div>
+                
+                <div style="margin-top: 40px;">
+                    <a href="https://example.com" target="_blank" class="back-button" style="background: #4CAF50;">View Prototype</a>
+                    <a href="https://figma.com" target="_blank" class="back-button" style="background: #2196F3; margin-left: 10px;">Design System</a>
+                    <p style="color: var(--light-gray); font-size: 14px; margin-top: 15px; font-style: italic;">
+                        📝 Note: Replace these placeholder URLs with your actual project links
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSM Project - Pavan Prasad</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .project-detail {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: var(--eerie-black-2);
+            border-radius: 20px;
+            margin-top: 50px;
+        }
+        
+        .project-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .project-image {
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin: 20px auto;
+            display: block;
+        }
+        
+        .project-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 40px;
+        }
+        
+        .back-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: var(--orange-yellow-crayola);
+            color: var(--smoky-black);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+        }
+        
+        .back-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(255, 178, 54, 0.4);
+        }
+        
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .tech-tag {
+            background: var(--orange-yellow-crayola);
+            color: var(--smoky-black);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        @media (max-width: 768px) {
+            .project-info {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="project-detail">
+        <a href="../index.html#portfolio" class="back-button">← Back to Portfolio</a>
+        
+        <div class="project-header">
+            <h1 class="h1" style="color: var(--white-1);">DSM Design System</h1>
+            <p style="color: var(--light-gray); font-size: 18px; margin-top: 10px;">Web Design Project</p>
+        </div>
+        
+        <img src="../assets/images/project-5.png" alt="DSM Project" class="project-image">
+        
+        <div class="project-info">
+            <div>
+                <h3 class="h3" style="color: var(--white-1); margin-bottom: 20px;">Project Overview</h3>
+                <p style="color: var(--light-gray); line-height: 1.6;">
+                    DSM (Design System Manager) is a comprehensive design system and component library 
+                    created to standardize UI/UX across multiple products. It provides designers and 
+                    developers with consistent guidelines, components, and tools for building cohesive interfaces.
+                </p>
+                
+                <h4 class="h4" style="color: var(--white-1); margin-top: 30px; margin-bottom: 15px;">System Components</h4>
+                <ul style="color: var(--light-gray); line-height: 1.8;">
+                    <li>• Typography and color palette guidelines</li>
+                    <li>• Reusable UI component library</li>
+                    <li>• Icon system and illustration style</li>
+                    <li>• Layout grids and spacing system</li>
+                    <li>• Accessibility standards and guidelines</li>
+                    <li>• Documentation and usage examples</li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 class="h3" style="color: var(--white-1); margin-bottom: 20px;">Design Philosophy</h3>
+                <p style="color: var(--light-gray); line-height: 1.6;">
+                    The design system emphasizes consistency, accessibility, and scalability. Every component 
+                    is designed with multiple use cases in mind and follows atomic design principles to ensure 
+                    modularity and reusability across different projects.
+                </p>
+                
+                <h4 class="h4" style="color: var(--white-1); margin-top: 30px; margin-bottom: 15px;">Tools & Technologies</h4>
+                <div class="tech-stack">
+                    <span class="tech-tag">Figma</span>
+                    <span class="tech-tag">Storybook</span>
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Styled Components</span>
+                    <span class="tech-tag">TypeScript</span>
+                    <span class="tech-tag">Jest</span>
+                    <span class="tech-tag">Chromatic</span>
+                </div>
+                
+                <div style="margin-top: 40px;">
+                    <a href="https://storybook.js.org" target="_blank" class="back-button" style="background: #4CAF50;">View Storybook</a>
+                    <a href="https://example.com" target="_blank" class="back-button" style="background: #2196F3; margin-left: 10px;">Documentation</a>
+                    <p style="color: var(--light-gray); font-size: 14px; margin-top: 15px; font-style: italic;">
+                        📝 Note: Replace these placeholder URLs with your actual project links
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
